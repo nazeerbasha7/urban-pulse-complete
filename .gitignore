@@ -1,0 +1,114 @@
+# ============================================
+# URBANPULSE BACKEND - .gitignore
+# ============================================
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables (CRITICAL - NEVER COMMIT!)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# Uploads & User Data
+uploads/
+uploads/*
+temp/
+tmp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output
+.jest/
+
+# Build output
+dist/
+build/
+out/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Optional npm cache
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variable files
+.env*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Certificates
+*.pem
+*.key
+*.cert
+
+# Database dumps
+*.sql
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Sensitive config files (if you have any)
+config/local.js
+config/production.js
+secrets.json
+
+# macOS
+__MACOSX
+
+# Windows
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
